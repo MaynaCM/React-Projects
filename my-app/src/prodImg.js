@@ -1,12 +1,12 @@
 import "./App.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import image from './img/image-product-1.jpg';
+import thumbImg from "./assets/img/images";
 
 function ProdImg(){
     return(
     <div>
         <div>
-            <img src={image} />
+            <img src={thumbImg.product1} />
         </div>
     </div>
     );  
