@@ -9,7 +9,8 @@
     --Very-dark-blue: hsl(220, 13%, 13%);
     --Dark-grayish-blue: hsl(219, 9%, 45%);
     --Grayish-blue: hsl(220, 14%, 75%);
-    --Light-grayish-blue: hsl(0, 0%, 70%);
+    --Light-grayish: hsl(0, 0%, 70%);
+    --Light-grayish-blue: hsl(223, 64%, 98%);
     --White: hsl(0, 0%, 100%);
     --Black: hsla(0, 0%, 0%, 0.75);
 }
@@ -22,20 +23,14 @@
     color: var(--Pale-orange)
 }
 
-.bg-primary{
-    background-color: var(--Orange)
-}
 
-.bg-secondary{
-    background-color: var(--Pale-orange)
-}
 
 .text-darkGrey{
     color: var(--Dark-grayish-blue);
 }
   
 .text-LigthGrey{
-    color: var(--Light-grayish-blue);
+    color: var(--Light-grayish);
 }
 
 .text-grey{
@@ -44,6 +39,18 @@
 
 .text-darkBlue{
     color: var(--Very-dark-blue);
+}
+
+.bg-primary{
+    background-color: var(--Orange)
+}
+
+.bg-secondary{
+    background-color: var(--Pale-orange)
+}
+
+.bg-greyish{
+    background-color: var(--Light-grayish-blue);
 }
 
 body{
