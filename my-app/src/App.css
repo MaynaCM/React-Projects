@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Questrial&display=swap');
+
+:root {
+    --Orange: hsl(26, 100%, 55%);
+    --Pale-orange: hsl(25, 100%, 94%);
+    --Very-dark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsl(220, 14%, 75%);
+    --Light-grayish-blue: hsl(0, 0%, 70%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsla(0, 0%, 0%, 0.75);
+}
+
+.text-primary{
+    color: var(--Orange)
+}
+
+.text-secondary{
+    color: var(--Pale-orange)
+}
+
+.bg-primary{
+    background-color: var(--Orange)
+}
+
+.bg-secondary{
+    background-color: var(--Pale-orange)
+}
+
+.text-darkGrey{
+    color: var(--Dark-grayish-blue);
+}
+  
+.text-LigthGrey{
+    color: var(--Light-grayish-blue);
+}
+
+.text-grey{
+    color: var(--Grayish-blue);
+}
+
+.text-darkBlue{
+    color: var(--Very-dark-blue);
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Product from './product.js';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<Product />, document.getElementById('root'));
+ReactDOM.render(<Product price="125,00" descount="50"/>, document.getElementById('root'));
