@@ -5,10 +5,12 @@ import ProdImg from './prodImg.js';
 
 function ProductPage() {
     return (
-      <>
-        <Product price="125,00" discount="50" priceOriginal="250,00" />
+      <div class="flex justify-center">
         <ProdImg />
-      </>
+        <div  class="flex items-center">
+          <Product price="125,00" discount="50" priceOriginal="250,00"/>
+        </div>
+      </div>
     );
 }
   

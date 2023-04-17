@@ -55,8 +55,25 @@
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 p{
     font-size: 16px;
+}
+
+#thumbnail{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#thumbnail > li {
+    width: 12%;
 }
