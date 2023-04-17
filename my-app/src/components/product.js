@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus, faMinus, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
@@ -21,7 +21,7 @@ function Product(props) {
           <button class="w-1/12 flex justify-center items-center mr-auto">
             <FontAwesomeIcon icon={faPlus} size="sm"   style={{color: "var(--Orange)",}}/>
           </button>
-            0
+              <span data-value="0">{props.quantity}</span>
           <button class="w-1/12 flex justify-center items-center ml-auto">
             <FontAwesomeIcon icon={faMinus} size="sm" style={{color:  "var(--Orange)",}} />
           </button>

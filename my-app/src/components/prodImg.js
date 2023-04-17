@@ -1,6 +1,6 @@
-import "./App.css"
+import "../App.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import thumbImg from "./assets/img/images";
+import thumbImg from "../assets/img/images";
 
 function ProdImg(){
     return(

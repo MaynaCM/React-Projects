@@ -7,6 +7,7 @@ const thumbImg = {
     thumbProduct2:require ('../img/image-product-2-thumbnail.jpg'),
     thumbProduct3:require ('../img/image-product-3-thumbnail.jpg'),
     thumbProduct4:require ('../img/image-product-4-thumbnail.jpg'),
+    logo1:require ('../img/logoJp.jpg'),
   };
   
 export default thumbImg;

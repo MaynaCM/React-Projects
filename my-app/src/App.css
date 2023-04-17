@@ -77,3 +77,21 @@ p{
 #thumbnail > li {
     width: 12%;
 }
+
+#navBar {
+    background-color: transparent;
+    padding: 15px 0px 30px 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--Light-grayish);
+    top: 0;
+    position: fixed;
+    width:90%;
+
+}
+
+#navWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
